@@ -1,23 +1,27 @@
 @font-face {
     font-family: "Gilroy";
     src: url("assets/font2/gilroy-medium-webfont.woff").format("woff"),
+    font-weight: 1 1000;
     }
   
     @font-face {
       font-family: "neuehaasdisplay";
       src: url("assets/font3/neuehaasdisplaymediu-webfont.woff").format("woff"),
+      font-weight: 1 1000;
       }
   
   
       @font-face {
         font-family: "rejouice";
         src: url("assets/font/Rejouice-Headline.svg").format("svg"),
+        font-weight: 1 1000;
         }
   
         
         @font-face {
           font-family: "nb";
           src: url("assets/font/NBInternationalProBoo.woff2") format("woff2"),
+          font-weight: 1 1000;
           }
       
 
