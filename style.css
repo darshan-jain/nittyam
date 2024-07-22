@@ -11,7 +11,7 @@
   
       @font-face {
         font-family: "rejouice";
-        src: url("assets/font4/Rejouice-Headline.woff").format("woff"),
+        src: url("/assets/font4/Rejouice-Headline.woff").format("woff"),
         }
   
         
