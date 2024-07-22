@@ -11,7 +11,7 @@
   
       @font-face {
         font-family: "rejouice";
-        src: url("/assets/font4/Rejouice-Headline.woff").format("woff"),
+        src: url("assets/font/Rejouice-Headline.svg").format("svg"),
         }
   
         
@@ -310,7 +310,7 @@ html, body{
 }
 .page1 .inner-content h1 span{
     display: inline-block;
-    font-family: "rejouice";
+    font-family: "rejouice" !important;
 }
 .page2{
     height: 60vh;
