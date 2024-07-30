@@ -912,3 +912,48 @@ footer .footer-bottom h1 span{
    color: #fff;
    font-family: rejouice;
 }
+
+
+
+.container {
+    font-family: nb;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+   
+}
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+.text-container h1 {
+    margin-top: 0;
+}
+.text-container p {
+    margin-bottom: 0;
+}
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .image-container {
+        padding: 10px;
+    }
+    .text-container {
+        padding: 10px;
+    }
+}

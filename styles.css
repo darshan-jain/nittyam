@@ -21,6 +21,44 @@
           }
       
 
+
+
+        .grid-coontainer{
+            margin: 3%;
+            max-height:100vh;
+        }
+          
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .grid-item {
+            position: relative;
+            overflow: hidden;
+            
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .grid-item p{
+            position:relative;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+
 ::selection{
     color: #cacbcb;
 }
@@ -419,7 +457,7 @@ html, body{
     transform-origin: bottom left;
 }
 .page4{
-    height: 100vh;
+    height: 330vh;
     width: 100vw;
     background-color: #fff;
 }
