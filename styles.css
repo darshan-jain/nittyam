@@ -26,6 +26,7 @@
         .grid-coontainer{
             margin: 3%;
             max-height:100vh;
+            
         }
           
 
@@ -38,6 +39,7 @@
         .grid-item {
             position: relative;
             overflow: hidden;
+            
             
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
@@ -407,9 +409,11 @@ html, body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 .page3 .page3-text{
     overflow: hidden;
+    
     height: 155px;
 }
 .page3 .page3-text h4{
@@ -457,7 +461,7 @@ html, body{
     transform-origin: bottom left;
 }
 .page4{
-    height: 330vh;
+    height: 140vh;
     width: 100vw;
     background-color: #fff;
 }
@@ -513,7 +517,7 @@ html, body{
     display: ;
 }
 .page4 .page4-video .item img{
-    height: 100%;
+    height: auto;
     width: 100%;
     object-fit: cover;
     position: absolute;
@@ -700,6 +704,7 @@ html, body{
     margin-right: auto;
 }
 .page9{
+    
     height: 50vh;
     width: 100vw;
     background-color: #fff;

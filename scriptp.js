@@ -114,19 +114,19 @@ function page2TopAnim(){
     }
 })
 }
-function page4Anim(){
-  const videos = document.querySelectorAll('.page4 .page4-video .item video');
+// function page4Anim(){
+//   const videos = document.querySelectorAll('.page4 .page4-video .item video');
 
-videos.forEach((video) => {
-  video.addEventListener('mouseenter',() =>{
-    video.play()
-  })
-  video.addEventListener('mouseleave',() =>{
-    video.pause()
-    video.currentTime= 0
-  })
-})
-}
+// videos.forEach((video) => {
+//   video.addEventListener('mouseenter',() =>{
+//     video.play()
+//   })
+//   video.addEventListener('mouseleave',() =>{
+//     video.pause()
+//     video.currentTime= 0
+//   })
+// })
+// }
 function page5TopAnim(){
   gsap.from(".page5 .page5-top .top-text h3", {
     y: 60,
@@ -285,7 +285,7 @@ function page3TextAnim(){
       trigger:'.page3 .page3-text h1 ',
       start:'top 80%',
       end:'top 68%',
-      duration:1.2,
+      duration:.6,
       stagger:1,
       scrub:1
     }
@@ -295,7 +295,7 @@ crsrAnim();
 loco();
 page2TopAnim();
 page3TextAnim();
-page4Anim();
+//page4Anim();
 page5TopAnim();
 
 page7TopAnim();
