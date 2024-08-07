@@ -291,6 +291,9 @@ function page3TextAnim(){
     }
   })
 }
+
+
+
 crsrAnim();
 loco();
 page2TopAnim();

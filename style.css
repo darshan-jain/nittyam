@@ -25,6 +25,8 @@
           }
       
 
+          
+
 ::selection{
     color: #cacbcb;
 }
@@ -86,6 +88,18 @@ html, body{
     width: 100vw;
     background-color: #cacbcb;
 }
+
+@media(max-width: 480px){
+    .menu.active{
+        position: absolute;
+        z-index: 6;
+        height: 70vh;
+        width: 100vw;
+        background-color: #cacbcb;
+    }
+    
+}
+
 .menu-header{
     height: 40px;
     width: 100vw;
@@ -104,6 +118,20 @@ html, body{
     font-size: 1.5vw;
     letter-spacing: -1px;
 }
+
+@media(max-width: 480px){
+    .menu-header a{
+        color: #2D2B2B;
+        text-decoration: none;
+        font-weight: lighter;
+        cursor: pointer;
+        font-weight: lighter;
+        font-size: 0.9em;
+        letter-spacing: -1px;
+    }
+    
+}
+
 .menu-header #close{
     position: relative;
 }
@@ -143,6 +171,13 @@ html, body{
     height: 220px;
     border-radius: 8px;
 }
+
+@media(max-width: 480px){
+    .menu-sec .vid video{
+        display: none;
+    }
+}
+
 .menu-sec .vid .play{
     display: flex;
     position: absolute;
@@ -186,6 +221,18 @@ html, body{
     line-height: 1;
     position: relative;
 }
+
+@media(max-width: 480px){
+    .menu-sec .links h3{
+        font-size: 3.4vh;
+        font-weight: lighter;
+        margin-right: 15vw;
+        cursor: pointer;
+        line-height: 1.5;
+        position: relative;
+    }
+}
+
 .menu-sec .links h3::after{
     content: '';
     position: absolute;
@@ -211,6 +258,21 @@ html, body{
     margin: 1.5vw 0vw 0vw 1.5vw;
     cursor: pointer;
 }
+
+@media(max-width: 480px){
+    .menu-sec .links button{
+        background-color: transparent;
+        border: 1px solid #000;
+        padding: 1vw 1.8vw;
+        border-radius: 5px;
+        font-size: 2.1vh;
+        margin: 1.5vw 0vw 0vw 1.5vw;
+        cursor: pointer;
+        text-align: left;
+    }
+}
+
+
 .menu-sec .links button:hover{
     background-color: #000;
     color: #FF5F38;
@@ -238,6 +300,17 @@ html, body{
     cursor: pointer;
     position: relative;
 }
+
+@media(max-width: 480px){
+    .menu .small-links h3{
+        font-weight: lighter;
+        padding: 1vw 3vw;
+        font-size: 1.5vh;
+        cursor: pointer;
+        position: relative;
+    }
+}
+
 .menu .small-links h3::after{
     content: '';
     position: absolute;
@@ -281,6 +354,12 @@ html, body{
     padding: 3vw;
     font-size: .91vw;
 }
+@media (max-width: 480px) {
+    .inner-content nav {
+        font-size: 0.8em;
+    }
+}
+
 .inner-content nav a{
     color: #fff;
     text-decoration: none;
@@ -312,6 +391,16 @@ html, body{
     font-size: 22vw;
     
 }
+
+@media (max-width: 480px){
+    .page1 .inner-content img{
+        width: 40%;
+        height: auto;
+        margin-bottom: 6vh;
+    }
+}
+
+    
 .page1 .inner-content h1 span{
     display: inline-block;
     font-family: "rejouice" !important;
@@ -320,6 +409,13 @@ html, body{
     height: 60vh;
     width: 100vw;
     background-color: #fff;
+}
+@media (max-width: 480px){
+    .page2{
+        height:50vh;
+        width:100vw;
+        background-color: #fff;
+    }
 }
 .page2 .page2-top{
     height: 100px;
@@ -336,6 +432,13 @@ html, body{
     letter-spacing: -.5px;
     color: #141414;
 }
+
+@media (max-width: 480px){
+    .page2 .page2-top h3{
+        font-size:0.8em;
+    }
+}
+
 .page2 .page2-top .first-text{
     overflow: hidden;
 }
@@ -365,6 +468,13 @@ html, body{
     display: inline-block;
     overflow: hidden;
 }
+
+@media (max-width: 480px){
+    .page2 .page2-bottom .btm-text h2 span{
+        font-size:4.5vw;
+    }
+}
+
 .page3{
     height: 70vh;
     width: 100vw;
@@ -374,6 +484,15 @@ html, body{
     justify-content: center;
     text-align: center;
 }
+
+@media (max-width: 480px){
+    .page3{
+        height: 20vh;
+    width: 100vw;
+    }
+}
+
+
 .page3 .page3-text{
     overflow: hidden;
     height: 155px;
@@ -387,6 +506,11 @@ html, body{
     gap: 5px;
     margin-bottom: 15px;
 }
+@media (max-width: 480px){
+    .page3 .page3-text h4{
+        font-size: 5vw;
+    }
+}
 .page3 .page3-text h4 span{
     font-size: .7vw;
     background-color: #000;
@@ -394,6 +518,16 @@ html, body{
     border-radius: 100px;
     padding: 4px 6px;
     text-align: center;
+}
+@media (max-width: 480px){
+    .page3 .page3-text h4 span{
+        font-size: 2.6vw;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    padding: 4px 6px;
+    text-align: center;
+    }
 }
 .page3 .page3-text h4 i{
     color: #161616;
@@ -406,6 +540,13 @@ html, body{
     line-height: 1;
     position: relative;
 }
+
+@media (max-width: 480px){
+    .page3 .page3-text h1{
+        font-size:5vw;
+    }
+}
+
 .page3 .page3-text h1::after{
     content: '';
     position: absolute;
@@ -427,6 +568,12 @@ html, body{
     width: 100vw;
     background-color: #fff;
 }
+
+@media(max-width: 480px){
+    .page4{
+        height: 30vh;
+    }
+}
 .page4 .page4-text{
     display: flex;
     align-items: center;
@@ -439,6 +586,11 @@ html, body{
     letter-spacing: -1px;
     position: relative;
     cursor: pointer;
+}
+@media(max-width: 480px){
+    .page4 .page4-text h2{
+        font-size:4.2vw;
+    }
 }
 .page4 .page4-text h2::after{
     content: '';
@@ -490,6 +642,14 @@ html, body{
     width: 100vw;
     background-color: #fff;
 }
+
+@media(max-width: 480px)
+{
+    .page5{
+        height: 30vh;
+    }
+}
+
 .page5 .page5-top{
     height: 100px;
     width: 100vw;
@@ -505,6 +665,13 @@ html, body{
     letter-spacing: -.5px;
     color: #141414;
 }
+
+@media(max-width: 480px){
+    .page5 .page5-top h3{
+        font-size:0.8em;
+    }
+}
+
 .page5 .page5-top .top-text{
     overflow: hidden;
 }
@@ -534,12 +701,30 @@ html, body{
     display: inline-block;
     overflow: hidden;
 }
+
+
+@media(max-width: 480px){
+    .page5 .page5-bottom .btm-text h2 span{
+        font-size: 4.5vw;
+        font-weight: lighter;
+        line-height: 1;
+        letter-spacing: -1px;
+        display: inline-block;
+        overflow: hidden;
+    }
+}
 .page6{
     font-family: nb;
     height: 80vh;
     width: 100vw;
     background-color: #fff;
     position: relative;
+}
+
+@media(max-width: 480px){
+    .page6{
+        height: 40vh;
+    }
 }
 .page6 video{
     position: absolute;
@@ -591,11 +776,24 @@ html, body{
 .page6 .page6-text .seat span{
     font-size: 5vw;
 }
+
+@media (max-width: 480px){
+    .page6 .page6-text .seat span{
+        font-size: 5vw;
+    }
+}
 .page6 .page6-text .seat h2{
     font-size: 5vw;
     font-weight: lighter;
     letter-spacing: -1.5px;
 }
+
+@media(max-width: 480px){
+    .page6 .page6-text .seat h2{
+        font-size: 6vw;
+    }
+}
+
 .page6 .page6-text .seat .seat-span{
     display: flex;
     align-items: center;
@@ -609,6 +807,13 @@ html, body{
     width: 100vw;
     background-color: #fff;
 }
+
+@media(max-width: 480px){
+    .page7{
+        height: 30vh;
+    }
+}
+
 .page7 .page7-top{
     height: 100px;
     width: 100vw;
@@ -623,6 +828,11 @@ html, body{
     font-weight: lighter;
     letter-spacing: -.5px;
     color: #141414;
+}
+@media(max-width: 480px){
+    .page7 .page7-top h3{
+        font-size: 0.8em;
+    }
 }
 .page7 .page7-top .top-text{
     overflow: hidden;
@@ -653,6 +863,16 @@ html, body{
     display: inline-block;
     overflow: hidden;
 }
+@media(max-width: 480px){
+    .page7 .page7-bottom .btm-text h2 span{
+        font-size: 4.5vw;
+        font-weight: lighter;
+        line-height: 1;
+        letter-spacing: -1px;
+        display: inline-block;
+        overflow: hidden;
+    } 
+}
 .page8{
     font-family: nb;
     margin-top: 10vh;
@@ -660,6 +880,8 @@ html, body{
     width: 100vw;
     background-color: #fff;
 }
+
+
 .page8 .text{
     font-family: nb;
     display: flex;
@@ -721,6 +943,21 @@ html, body{
     align-items: center;
     background: transparent;
 }
+
+@media(max-width: 480px){
+    .swiper-slide {
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+    }
+}
+
 .swiper-slide img {
     display: block;
     max-width: 100%;
