@@ -727,7 +727,7 @@ html, body{
         overflow: hidden;
     }
 }
-.page6{
+/* .page6{
     font-family: nb;
     height: 80vh;
     width: 100vw;
@@ -764,7 +764,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* z-index: 99; */
+    
 }
 .page6 .crsr h2{
     color: #fff;
@@ -814,7 +814,7 @@ html, body{
     flex-direction: column;
     height:70px;
     overflow: hidden;
-}
+} */
 
 .page7{
     height: 80vh;
@@ -985,13 +985,26 @@ html, body{
     margin-right: auto;
 }
 .page9{
-    height: 50vh;
+    
+    height: 25vh;
     width: 100vw;
     background-color: #fff;
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
+
+
+
+@media(max-width: 480px){
+    .page9{
+        height: 10vh;
+        margin-top:20%;
+    }
+}
+
+
 .page9 .page9-text{
     overflow: hidden;
     height: 155px;
@@ -1016,6 +1029,15 @@ html, body{
     line-height: 1;
     position: relative;
 }
+
+@media(max-width: 480px){
+    .page9 .page9-text h1{
+        font-size:6vw;
+        
+    }
+}
+
+
 .page9 .page9-text h1::after{
     content: '';
     position: absolute;

@@ -297,7 +297,7 @@ page2TopAnim();
 page3TextAnim();
 page4Anim();
 page5TopAnim();
-page6Anim();
+//page6Anim();
 page7TopAnim();
 loader();
 menuAnim();
