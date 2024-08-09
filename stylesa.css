@@ -66,6 +66,12 @@ html, body{
     transform: translate(-50%,-50%);
     z-index: 4;
 }
+@media(max-width: 480px){
+    .cursor{
+        display: none;
+    }
+}
+
 .cursor h4{
     font-size: 1.2vw;
     font-weight: lighter;
