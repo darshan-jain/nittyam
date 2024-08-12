@@ -23,7 +23,16 @@
           src: url("assets/font/NBInternationalProBoo.woff2") format("woff2"),
           font-weight: 1 1000;
           }
-      
+    
+          
+// <uniquifier>: Use a unique and descriptive class name
+
+.oswald-os {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 
           
 
@@ -39,6 +48,7 @@
 html, body{
     height: 100%;
     width: 100%;
+    scroll-behaviour: smooth;
 }
 .loader{
     background-color: #000;
@@ -409,7 +419,7 @@ html, body{
 }
 .page1 .inner-content h1{
     text-align: center;
-    
+    font-family: os ;
     font-size: 22vw;
     
 }
@@ -425,7 +435,7 @@ html, body{
     
 .page1 .inner-content h1 span{
     display: inline-block;
-    font-family: "rejouice" !important;
+    font-family: os ;
 }
 .page2{
     height: 60vh;
