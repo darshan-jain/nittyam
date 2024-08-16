@@ -1127,6 +1127,14 @@ footer .footer-top{
     cursor: pointer;
     transition: background-color .3s ease;
 }
+
+@media(max-width: 480px)
+{
+    .footer-top .first .first-top button{
+        font-size: 1.7vh;
+    }
+}
+
 .footer-top .first .first-top button:hover{
     background-color: #fff;
     color: #000;

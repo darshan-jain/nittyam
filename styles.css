@@ -1150,6 +1150,14 @@ footer .footer-bottom h1 span{
 }
 
 
+@media(max-width: 480px)
+{
+    .footer-top .first .first-top button{
+        font-size: 1.7vh;
+    }
+}
+
+
 .carousel {
     position: relative;
     width: 90%;
