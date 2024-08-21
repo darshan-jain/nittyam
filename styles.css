@@ -1161,7 +1161,7 @@ footer .footer-bottom h1 span{
 .carousel {
     position: relative;
     width: 90%;
-    margin-left:5%;
+    margin-left: 5%;
     margin-right: 5%;
     height: auto;
     max-width: 100%;
@@ -1173,12 +1173,12 @@ footer .footer-bottom h1 span{
 .carousel__slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 1500%; /* Adjusted for 15 slides */
-    animation: autoScroll 150s infinite; /* Auto-scroll animation */
+    width: 1000%; /* Adjusted for 10 slides */
+    animation: autoScroll 100s infinite; /* Auto-scroll animation adjusted for 10 slides */
 }
 
 .carousel__slide {
-    width: 6.67%; /* Adjusted for 15 slides */
+    width: 10%; /* Adjusted for 10 slides */
     flex-shrink: 0;
     display: flex;
     justify-content: center;
@@ -1249,59 +1249,39 @@ input#slide1:checked ~ .carousel__slides {
 }
 
 input#slide2:checked ~ .carousel__slides {
-    transform: translateX(-6.67%);
+    transform: translateX(-10%);
 }
 
 input#slide3:checked ~ .carousel__slides {
-    transform: translateX(-13.34%);
+    transform: translateX(-20%);
 }
 
 input#slide4:checked ~ .carousel__slides {
-    transform: translateX(-20.01%);
+    transform: translateX(-30%);
 }
 
 input#slide5:checked ~ .carousel__slides {
-    transform: translateX(-26.68%);
+    transform: translateX(-40%);
 }
 
 input#slide6:checked ~ .carousel__slides {
-    transform: translateX(-33.35%);
+    transform: translateX(-50%);
 }
 
 input#slide7:checked ~ .carousel__slides {
-    transform: translateX(-40.02%);
+    transform: translateX(-60%);
 }
 
 input#slide8:checked ~ .carousel__slides {
-    transform: translateX(-46.69%);
+    transform: translateX(-70%);
 }
 
 input#slide9:checked ~ .carousel__slides {
-    transform: translateX(-53.36%);
+    transform: translateX(-80%);
 }
 
 input#slide10:checked ~ .carousel__slides {
-    transform: translateX(-60.03%);
-}
-
-input#slide11:checked ~ .carousel__slides {
-    transform: translateX(-66.70%);
-}
-
-input#slide12:checked ~ .carousel__slides {
-    transform: translateX(-73.37%);
-}
-
-input#slide13:checked ~ .carousel__slides {
-    transform: translateX(-80.04%);
-}
-
-input#slide14:checked ~ .carousel__slides {
-    transform: translateX(-86.71%);
-}
-
-input#slide15:checked ~ .carousel__slides {
-    transform: translateX(-93.38%);
+    transform: translateX(-90%);
 }
 
 /* Arrows only appear when a slide is selected */
@@ -1317,12 +1297,7 @@ input#slide6:checked ~ .carousel__arrows .carousel__arrow--prev,
 input#slide7:checked ~ .carousel__arrows .carousel__arrow--prev,
 input#slide8:checked ~ .carousel__arrows .carousel__arrow--prev,
 input#slide9:checked ~ .carousel__arrows .carousel__arrow--prev,
-input#slide10:checked ~ .carousel__arrows .carousel__arrow--prev,
-input#slide11:checked ~ .carousel__arrows .carousel__arrow--prev,
-input#slide12:checked ~ .carousel__arrows .carousel__arrow--prev,
-input#slide13:checked ~ .carousel__arrows .carousel__arrow--prev,
-input#slide14:checked ~ .carousel__arrows .carousel__arrow--prev,
-input#slide15:checked ~ .carousel__arrows .carousel__arrow--prev {
+input#slide10:checked ~ .carousel__arrows .carousel__arrow--prev {
     display: block;
 }
 
@@ -1335,35 +1310,24 @@ input#slide6:checked ~ .carousel__arrows .carousel__arrow--next,
 input#slide7:checked ~ .carousel__arrows .carousel__arrow--next,
 input#slide8:checked ~ .carousel__arrows .carousel__arrow--next,
 input#slide9:checked ~ .carousel__arrows .carousel__arrow--next,
-input#slide10:checked ~ .carousel__arrows .carousel__arrow--next,
-input#slide11:checked ~ .carousel__arrows .carousel__arrow--next,
-input#slide12:checked ~ .carousel__arrows .carousel__arrow--next,
-input#slide13:checked ~ .carousel__arrows .carousel__arrow--next,
-input#slide14:checked ~ .carousel__arrows .carousel__arrow--next,
-input#slide15:checked ~ .carousel__arrows .carousel__arrow--next {
+input#slide10:checked ~ .carousel__arrows .carousel__arrow--next {
     display: block;
 }
 
 /* Auto-scroll keyframes */
 @keyframes autoScroll {
     0% { transform: translateX(0%); }
-    6.67% { transform: translateX(-6.67%); }
-    13.34% { transform: translateX(-13.34%); }
-    20.01% { transform: translateX(-20.01%); }
-    26.68% { transform: translateX(-26.68%); }
-    33.35% { transform: translateX(-33.35%); }
-    40.02% { transform: translateX(-40.02%); }
-    46.69% { transform: translateX(-46.69%); }
-    53.36% { transform: translateX(-53.36%); }
-    60.03% { transform: translateX(-60.03%); }
-    66.70% { transform: translateX(-66.70%); }
-    73.37% { transform: translateX(-73.37%); }
-    80.04% { transform: translateX(-80.04%); }
-    86.71% { transform: translateX(-86.71%); }
-    93.38% { transform: translateX(-93.38%); }
-    100% { transform: translateX(-93.38%); }
+    10% { transform: translateX(-10%); }
+    20% { transform: translateX(-20%); }
+    30% { transform: translateX(-30%); }
+    40% { transform: translateX(-40%); }
+    50% { transform: translateX(-50%); }
+    60% { transform: translateX(-60%); }
+    70% { transform: translateX(-70%); }
+    80% { transform: translateX(-80%); }
+    90% { transform: translateX(-90%); }
+    100% { transform: translateX(-90%); }
 }
-
 
 
 
