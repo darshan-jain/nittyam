@@ -400,6 +400,7 @@ html, body{
     object-fit: cover;
     position: absolute;
     z-index: 1;
+    overflow-anchor: none;
 }
 
 .video-container {
