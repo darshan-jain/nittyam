@@ -1,6 +1,5 @@
 function loader(){
   var tl = gsap.timeline()
-/* ===( CODE AASHU )=== */
 tl.from(".loader span",{
   x:100,
   duration:1.2,
@@ -98,7 +97,7 @@ function page2TopAnim(){
       trigger:".page2-top-border",
       start:"top 92%",
       end:"top 89%",
-      duration:5,
+      duration:3,
       scrub:1
     }
   });
@@ -146,7 +145,7 @@ function page5TopAnim(){
       trigger:".page5-top-border",
       start:"top 85%",
       end:"top 80%",
-      duration:5,
+      duration:3,
       scrub:1
     }
   });
@@ -291,7 +290,7 @@ function page3TextAnim(){
     }
   })
 }
-crsrAnim();
+//crsrAnim();
 loco();
 page2TopAnim();
 page3TextAnim();
